@@ -1,0 +1,13 @@
+[Tue Apr 08 10:36:04 2014] [error] [client 127.0.0.1] File does not exist: /home/amzad/dev/magento/src/web/favicon.ico
+[Tue Apr 08 10:36:04 2014] [error] [client 127.0.0.1] File does not exist: /home/amzad/dev/magento/src/web/favicon.ico
+[Tue Apr 08 10:38:56 2014] [error] [client 127.0.0.1] script '/home/amzad/dev/magento/src/web/index.php' not found or unable to stat
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Zend_Controller_Request_Http' not found in /home/amzad/dev/magento/src/web/app/code/core/Mage/Core/Controller/Request/Http.php on line 36
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   1. {main}() /home/amzad/dev/magento/src/web/index.php:0
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   2. Mage::run() /home/amzad/dev/magento/src/web/index.php:87
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   3. Mage_Core_Model_App->run() /home/amzad/dev/magento/src/web/app/Mage.php:684
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   4. Mage_Core_Controller_Varien_Front->dispatch() /home/amzad/dev/magento/src/web/app/code/core/Mage/Core/Model/App.php:354
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   5. Mage_Core_Controller_Varien_Front->getRequest() /home/amzad/dev/magento/src/web/app/code/core/Mage/Core/Controller/Varien/Front.php:158
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   6. Mage_Core_Model_App->getRequest() /home/amzad/dev/magento/src/web/app/code/core/Mage/Core/Controller/Varien/Front.php:70
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   7. Varien_Autoload->autoload() /home/amzad/dev/magento/src/web/app/code/core/Mage/Core/Controller/Varien/Front.php:0
+[Tue Apr 08 11:15:31 2014] [error] [client 127.0.0.1] PHP   8. include() /home/amzad/dev/magento/src/web/lib/Varien/Autoload.php:93
